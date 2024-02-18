@@ -1,0 +1,257 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+
+#github {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+
+#linkedin {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.Home {
+    display: flex;
+}
+
+.Sobre-mim {
+    display: flex;
+}
+
+.Portfolio {
+    display: flex;
+}
+
+.Home:hover {
+    border-bottom: 2px solid #fff;
+
+}
+    
+.Sobre-mim:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.Portfolio:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    padding-top: 150px;
+    gap: 20px;
+}
+
+
+.introducao {
+    font-size: 16px;
+    display: flex;
+}
+
+.apresentacao {
+    font-size: 45px;
+}
+
+.texto {
+    display: flex;
+    padding-top: 20px;
+}
+
+.habilidade {
+    display: flex;
+    color: #79baec;
+    padding-top: 20px;
+    font-size: 23px;
+}
+
+.btn-portfolio {
+    background-color: #79baec;
+	border: 0.5px solid #ffffff;
+	border-radius: 4px;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	width: 20%;
+    color: rgb(0, 0, 0);
+	transition: all 0.3s ease-in;
+}
+
+.btn-portfolio:hover {
+    background-color: #000000;
+    color: #79baec;
+    border: 0.5px solid rgba(255, 255, 255, 0.839);
+}
+
+
+
+.projetos-linha1 {
+    display: flex;
+    padding-top: 100px;
+    background-color: #212121;
+}
+
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    background-color: #212121;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #212121;
+}
+
+
+.projeto-gta, .projeto-dom-casmurro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+}
+
+
+.imagem-projeto-gta, .imagem-dom-casmurro {
+    display: flex;
+    width: 75%;
+    height: 85%;
+    padding-top: 50px;
+    background-color: #212121;
+}
+
+.texto-gta, .texto-dom-casmurro, .texto-frontend, .texto-projeto-futuro{
+    display: flex;
+    padding-top: 50px;
+    background-color: #212121;
+}
+
+.texto-dom-casmurro {
+    display: flex;
+
+}
+
+.site-gta, .site-dom-casmurro, .site-frontend, .site-projeto-futuro{
+    display: flex;
+    color:rgb(0, 128, 255);    
+    background-color: #212121;
+}
+
+.site-dom-casmurro:hover {
+    text-decoration: underline;
+}
+
+.site-gta:hover {
+    text-decoration: underline; 
+}
+
+.site-frontend:hover {
+    text-decoration: underline;
+}
+
+.site-projeto-futuro:hover {
+    text-decoration: underline;
+}
+
+.imagem-dom-casmurro {
+    display: flex;
+    background-color: #212121;
+}
+
+.projetos-linha2 {
+    display: flex;
+    padding-top: 181px;
+    background-color: #212121;
+}
+
+.projeto-frontend, .projeto-futuro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #212121;
+}
+
+.imagem-projeto-frontend, .imagem-projeto-futuro {
+    display: flex;
+    width: 75%;
+    height: 85%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: #212121;
+}
+
+.site-frontend {
+    display: flex;
+    background-color: #212121;
+}
+
+.linha1, .linha3, .linha2 {
+    display: flex;
+    width: 90%;
+    position: relative;
+    top: 100px;
+}
+
+
+#sobre-mim {
+    display: flex;
+    flex-direction: column;
+    padding-top: 400px;
+    background-color: #303030;
+}
+
+.titulo-sobre-mim {
+    display: flex;
+    background-color: #303030;
+    justify-content: center;
+}
+
+.texto-sobre-mim {
+    display: flex;
+    background-color: #303030;
+    padding: 110px;
+}
+

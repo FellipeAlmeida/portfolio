@@ -1,0 +1,110 @@
+@media (max-width: 1024px) {
+    .texto-dom-casmurro, .texto-gta, .texto-frontend, .texto-projeto-futuro, .site-gta, .site-dom-casmurro, .site-frontend, .site-projeto-futuro {
+        font-size: 13px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .btn-portfolio {
+        width: 80%;
+    }
+
+    .imagem-projeto-gta, .imagem-dom-casmurro, .imagem-frontend, .imagem-projeto-futuro {
+        width: 50%;
+        height: 50%;
+    }
+
+    .texto-gta, .texto-dom-casmurro, .texto-frontend, .texto-projeto-futuro, .site-gta, .site-dom-casmurro, .site-frontend, .site-projeto-futuro {
+        font-size: 9px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 12px;
+    }
+
+    .titulo, .titulo-sobre-mim {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    html {
+        justify-content: center;
+    }
+
+    .btn-portfolio {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu {
+        font-size: 12px;
+    }
+
+    .redes-sociais {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .informacoes {
+        font-size: 13px;
+    }
+
+    .apresentacao {
+        font-size: 20px;
+    }
+
+    .habilidade {
+        font-size: 16px;
+    }
+
+    .introducao {
+        font-size: 13px;
+    }
+
+    .texto-gta, .texto-dom-casmurro, .texto-frontend, .texto-projeto-futuro, .site-gta, .site-dom-casmurro, .site-frontend, .site-projeto-futuro {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .texto-gta {
+        padding-left: 10px;
+    }
+
+    
+
+    .projetos-linha1 {
+        align-items: center;
+    }
+
+    .texto-sobre-mim {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .imagem-projeto-gta, .imagem-dom-casmurro { 
+        width: 80%;
+        height: 80%;
+    }
+
+    .imagem-projeto-frontend {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagem-projeto-futuro {
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
