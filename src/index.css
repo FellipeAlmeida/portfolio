@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0d0d0f;
+  --surface: #131316;
+  --surface-hover: #1a1a1f;
+  --border: #252529;
+  --text: #c5c5c9;
+  --muted: #55555f;
+  --accent: #0783ff;
+  --accent-dim: rgba(124, 109, 240, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+/* Section divider line */
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: #35353d;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-family: 'DM Mono', monospace;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  background: transparent;
+}
+
+/* Badge variants */
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-family: 'DM Mono', monospace;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.badge-purple {
+  background: rgba(124, 109, 240, 0.15);
+  color: #a99cf5;
+  border: 1px solid rgba(124, 109, 240, 0.25);
+}
+
+.badge-green {
+  background: rgba(52, 168, 83, 0.12);
+  color: #5ab570;
+  border: 1px solid rgba(52, 168, 83, 0.2);
+}
+
+.badge-amber {
+  background: rgba(251, 188, 4, 0.1);
+  color: #c9960a;
+  border: 1px solid rgba(251, 188, 4, 0.2);
+}
+
+.badge-teal {
+  background: rgba(0, 188, 182, 0.1);
+  color: #3dbdb8;
+  border: 1px solid rgba(0, 188, 182, 0.2);
+}
