@@ -7,6 +7,7 @@ import Experiencia from './components/Experiencia/Experiencia'
 import Footer from './components/Footer/Footer'
 import './index.css'
 import React from 'react'
+import ReactDOM from 'react-dom/client'
 
 export default function App() {
   return (
