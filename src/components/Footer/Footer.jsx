@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Footer() {
   return (
     <footer id="contato" className="px-6 py-24">

@@ -1,3 +1,5 @@
+import React from 'react'
+
 const TECHS = ['Javascript', 'React', 'Node.js', 'PostgreSQL', 'Python', 'Docker', 'FastApi', 'Flask']
 
 const SOCIAL_LINKS = [

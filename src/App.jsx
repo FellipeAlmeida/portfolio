@@ -6,6 +6,7 @@ import Formacao from './components/Formacao/Formacao'
 import Experiencia from './components/Experiencia/Experiencia'
 import Footer from './components/Footer/Footer'
 import './index.css'
+import React from 'react'
 
 export default function App() {
   return (

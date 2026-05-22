@@ -1,3 +1,5 @@
+import React from 'react'
+
 const FORMACAO = [
   {
     titulo: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',

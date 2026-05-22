@@ -1,3 +1,5 @@
+import React from 'react'
+
 const INTERESSES = [
   'Sistemas Embarcados',
   'User Experience',
