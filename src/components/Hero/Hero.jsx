@@ -81,33 +81,6 @@ export default function Hero() {
         </a>
       </div>
 
-      {/* Available badge — positioned top-right of content */}
-      <div
-        className="absolute"
-        style={{ right: '8%', bottom: '18%' }}
-      >
-        <div
-          className="card text-xs"
-          style={{ minWidth: 160, textAlign: 'center', padding: '12px 16px' }}
-        >
-          <div className="flex items-center justify-center gap-2 mb-1">
-            <span
-              style={{
-                width: 7,
-                height: 7,
-                borderRadius: '50%',
-                background: '#34a853',
-                display: 'inline-block',
-              }}
-            />
-            <span style={{ color: 'var(--accent)', fontWeight: 400 }}>disponível</span>
-          </div>
-          <p style={{ color: 'var(--muted)', fontSize: 11, lineHeight: 1.5 }}>
-            Aberto a oportunidades
-            <br />e projetos freelance
-          </p>
-        </div>
-      </div>
     </section>
   )
 }

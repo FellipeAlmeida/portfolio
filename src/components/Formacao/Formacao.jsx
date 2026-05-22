@@ -4,7 +4,7 @@ const FORMACAO = [
   {
     titulo: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
     instituicao: 'Instituo Federal de Ciência e Tecnologia do Ceará',
-    descricao: 'Ênfase em sistemas distribuídos e desenvolvimento de software.',
+    descricao: 'Ênfase em desenvolvimento de software.',
     periodo: '2025 — presente',
     badge: { label: 'em andamento', variant: 'badge-purple' },
   },

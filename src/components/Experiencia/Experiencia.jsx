@@ -13,7 +13,7 @@ const EXPERIENCIAS = [
     ],
   },
     {
-    cargo: 'Bolsista de Desenvolvimento Back-end',
+    cargo: 'Bolsa de Desenvolvedor Back-end',
     empresa: 'Polo de Inovação do IFCE',
     periodo: 'jan 2026 — presente',
     badge: { label: 'bolsa', variant: 'badge-teal' },
